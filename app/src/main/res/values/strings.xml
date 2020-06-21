@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Food</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="faqs">FAQs</string>
+    <string name="log_out">Log out</string>
+    <string name="order_history">Order History</string>
+    <string name="user_name">User Name</string>
+    <string name="user_phone_number">User Phone Number</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="phone_num">+91-1234567890</string>
+    <string name="email_address">Email Address</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="your_previous_orders_are_listed_below">Your previous orders are listed below:</string>
+    <string name="question1">Q1. What is FOOD doing this?</string>
+    <string name="answer1">A1. At FOOD we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material.</string>
+    <string name="question2">Q2. How are you guys are different?</string>
+    <string name="answer2">A2. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for FOOD Restaurant.</string>
+    <string name="question3">Q3. What is FOOD doing this?</string>
+    <string name="answer3">A3. At FOOD we strive to add value to your business. We understand the challenges you face on a daily basis in sourcing the best quality packaging material.</string>
+    <string name="question4">Q4. How are you guys are different?</string>
+    <string name="answer4">A4. Best products - We only list the products which have passed our tests and are the best suitable for delivery. They will help in giving a better consumer experience, so you can get get repeated orders. Best prices - We have negotiated rates with our distributors exclusive for FOOD Restaurant.</string>
+    <string name="can_t_find_any_restaurant_with_that_name">Can\'t find any Restaurant with that name!!!</string>
+    <string name="no_orders_placed">No Orders Placed</string>
+
+</resources>

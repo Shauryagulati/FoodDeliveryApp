@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:id="@+id/llContent">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:text="Restaurant Name"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:padding="6dp"
+            android:layout_margin="4dp"
+            android:id="@+id/txtRestName"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:text="11/12/2004"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:padding="6dp"
+            android:layout_margin="4dp"
+            android:id="@+id/txtDate"/>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llContent"
+        android:padding="4dp"
+        android:id="@+id/recyclerOrderDetails"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>

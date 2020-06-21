@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.RestaurantDetails">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/rlBelowToolbar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose from the menu listed below:"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:id="@+id/txtMenuList"
+            android:padding="6dp"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/rlBelowToolbar"
+        android:background="@color/colorPrimary"
+        android:id="@+id/txtSpace"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerRestaurantDetails"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/txtSpace"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCart"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Proceed to Cart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/btnCart" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:id="@+id/progressLayout"
+        android:visibility="invisible">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>
